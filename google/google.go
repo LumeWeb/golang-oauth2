@@ -23,7 +23,7 @@ import (
 
 // Endpoint is Google's OAuth 2.0 default endpoint.
 var Endpoint = oauth2.Endpoint{
-	AuthURL:       "https://accounts.google.com/o/oauth2/auth",
+	AuthURL:       "https://accounts.google.com/o/oauth2/v2/auth",
 	TokenURL:      "https://oauth2.googleapis.com/token",
 	DeviceAuthURL: "https://oauth2.googleapis.com/device/code",
 	AuthStyle:     oauth2.AuthStyleInParams,
